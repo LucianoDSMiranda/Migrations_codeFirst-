@@ -17,8 +17,7 @@ namespace learn_migration.Infrastructure.DataModels
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]        
         public int Id { get; set; }
         public string Nome { get; set; } = null!;
-        public string Sobrenome { get; set; } = null!;
-        public string Mae { get; set; } = null!;
+        public string Sobrenome { get; set; } = null!;        
         public DateTime? DataNasc { get; set; }
 
         [JsonIgnore]
